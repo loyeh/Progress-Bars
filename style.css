@@ -63,8 +63,13 @@ button {
   margin-inline: 5px;
   margin-block: 20px;
   border-radius: 5px;
+  color: white;
   border: none;
 }
 button:active {
   transform: translateY(2px);
+}
+button:disabled{
+    background-color: #b4b4b4;
+    transform: translateY(0);
 }
